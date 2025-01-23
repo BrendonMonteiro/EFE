@@ -1027,7 +1027,7 @@ select:focus {
             <li onclick="toggleForm('form1')" id="item1">
               <div style="display: flex; gap: 1rem; align-items: center">
                 <img
-                src="https://i.imgur.com/Wt9CbDW.png"
+                src="https://i.imgur.com/7d90lHq.png"
                 alt="Ícone"
                 class="icon"
               />
@@ -1047,7 +1047,7 @@ select:focus {
             <li onclick="toggleForm('form4')" id="item4">
                 <div style="display: flex; gap: 1rem; align-items: center">
                   <img
-                  src="https://i.imgur.com/2lBAjaC.png"
+                  src="https://i.imgur.com/0alP2RS.png"
                   alt="Ícone"
                   class="icon"
                 />
@@ -1057,7 +1057,7 @@ select:focus {
               <li onclick="toggleForm('form5')" id="item5">
                 <div style="display: flex; gap: 1rem; align-items: center">
                   <img
-                  src="https://i.imgur.com/2OMOmNX.png"
+                  src="https://i.imgur.com/U773tpZ.png"
                   alt="Ícone"
                   class="icon"
                 />
@@ -1077,7 +1077,7 @@ select:focus {
               <li onclick="toggleForm('form6')" id="item6">
                 <div style="display: flex; gap: 1rem; align-items: center">
                   <img
-                  src="https://i.imgur.com/5BdjhJO.png"
+                  src="https://i.imgur.com/CEvDn10.png"
                   alt="Ícone"
                   class="icon"
                 />
@@ -1087,7 +1087,7 @@ select:focus {
               <li onclick="toggleForm('form2')" id="item2">
                   <div style="display: flex; gap: 1rem; align-items: center">
                     <img
-                    src="https://i.imgur.com/XYVtfFv.png"
+                    src="https://i.imgur.com/PYTIrly.png"
                     alt="Ícone"
                     class="icon"
                   />
@@ -1097,7 +1097,7 @@ select:focus {
             <li onclick="toggleForm('form3')" id="item3">
               <div style="display: flex; gap: 1rem; align-items: center">
                 <img
-                src="https://i.imgur.com/foWyaTv.png"
+                src="https://i.imgur.com/bcew0nz.png"
                 alt="Ícone"
                 class="icon"
               />
@@ -1107,7 +1107,7 @@ select:focus {
             <li onclick="toggleForm('form7')" id="item7">
                 <div style="display: flex; gap: 1rem; align-items: center">
                   <img
-                  src="https://i.imgur.com/CmgwsJH.png"
+                  src="https://i.imgur.com/FXdtTyo.png"
                   alt="Ícone"
                   class="icon"
                 />
@@ -1117,7 +1117,7 @@ select:focus {
               <li onclick="toggleForm('form8')" id="item8">
                 <div style="display: flex; gap: 1rem; align-items: center">
                   <img
-                  src="https://i.imgur.com/pR1nXOF.png"
+                  src="https://i.imgur.com/dh4AIOM.png"
                   alt="Ícone"
                   class="icon"
                 />
@@ -1127,7 +1127,7 @@ select:focus {
             <li onclick="toggleForm('form9')" id="item9">
               <div style="display: flex; gap: 1rem; align-items: center">
                 <img
-                src="https://i.imgur.com/9pgwNJZ.png"
+                src="https://i.imgur.com/weaWdkC.png"
                 alt="Ícone"
                 class="icon"
               />
@@ -1137,7 +1137,7 @@ select:focus {
             <li onclick="toggleForm('form10')" id="item10">
               <div style="display: flex; gap: 1rem; align-items: center">
                 <img
-                src="https://i.imgur.com/PAJ6dEb.png"
+                src="https://i.imgur.com/NFPQmnJ.png"
                 alt="Ícone"
                 class="icon"
               />
@@ -1147,7 +1147,7 @@ select:focus {
             <li onclick="toggleForm('form11')" id="item11">
                 <div style="display: flex; gap: 1rem; align-items: center">
                   <img
-                  src="https://i.imgur.com/a0lJY6j.png"
+                  src="https://i.imgur.com/pMDvUOM.png"
                   alt="Ícone"
                   class="icon"
                 />

@@ -1390,17 +1390,24 @@ select:focus {
       </div>
       <div id="form13" name="Advertência" class="form-container">
         <form onsubmit="event.preventDefault(); submitForm13();">
+          <div class="row">
             <input type="text" name="nick_adv" placeholder="Nickname" required />
+            <input type="text" name="mot_adv" placeholder="Motivo(s)" required />
+          </div>
+          <div class="row">
           <select name="tipo_adv" required>
             <option value="" disabled selected>Tipo</option>
             <option value="Erro">Erro</option>
             <option value="Advertência Verbal">Advertência Verbal</option>
             <option value="Advertência Interna">Advertência Interna</option>
         </select>
-    <div class="row">
-          <input type="text" name="mot_adv" placeholder="Motivo(s)" required />
-          <input type="text" name="perm_adv" placeholder="Permissão" required />
-        </div>
+          <select name="perm_adv" required>
+            <option value="" disabled selected>Permissão</option>
+            <option value="Liderança">Liderança</option>
+            <option value="Ministério">Ministério</option>
+            <option value="Departamento de Repressão a Infrações">Departamento de Repressão a Infrações</option>
+        </select>
+      </div>
           <button type="submit">Postar</button>
         </form>
       </div>

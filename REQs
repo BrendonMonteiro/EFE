@@ -1759,7 +1759,7 @@ function gatherFormData() {
     const formattedFutureDate = `${futureDate.getDate().toString().padStart(2, '0')} ${monthFuture.charAt(0).toUpperCase() + monthFuture.slice(1)} ${futureDate.getFullYear()}`;
 
     // Formata o BBCode incluindo o intervalo de datas
-    formData += `[font=poppins][size=18][center][color=#668ea5][b] ${tipo}\n\n`;
+    formData += `[font=poppins][size=18][center][color=#79a8c3][b] ${tipo}\n\n`;
     formData += `[/b][/color][/center][/size][justify][b]Nickname:[/b] ${cargoNickname}\n`;
     formData += `[b]Motivo(s):[/b] ${motivos}\n`;
     formData += `[b]Período:[/b] ${formattedToday} a ${formattedFutureDate}\n`;
@@ -1771,7 +1771,7 @@ function gatherFormData() {
 
     // Adiciona título para os demais formulários (exceto form12 e form13)
     const title = formTitles[formId];
-    formData += `[font=Poppins][size=18][center][color=#668ea5][b]${title}[/b][/color][/center][/size]\n[size=13][left]`;
+    formData += `[font=Poppins][size=18][center][color=#79a8c3][b]${title}[/b][/color][/center][/size]\n[size=13][left]`;
 
     const inputs = activeForm.querySelectorAll("input, select, textarea");
     let placeholdersData = "";
@@ -1796,7 +1796,7 @@ function gatherFormData() {
                 }
 
                 // Processa TAG placeholder para múltiplas linhas
-                if (placeholder === "cvop") {
+                if (placeholder === "TAG") {
                     const lines = formattedValue.split(" / ");
                     lines.forEach(line => {
                         placeholdersData += `[font=Poppins][b][color=#000000]${line}[/color][/b][/font]\n`;
@@ -1828,7 +1828,7 @@ function gatherFormData() {
     checkboxes.forEach((checkbox) => {
         if (checkbox.checked) {
             const label = checkbox.nextElementSibling.innerText.trim();
-            formData += `\n[color=#668ea5][b]✓[/b][/color] ${label}\n`;
+            formData += `\n[color=#79a8c3][b]✓[/b][/color] ${label}\n`;
         }
     });
 
